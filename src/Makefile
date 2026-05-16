@@ -1,2 +1,5 @@
-GA: bbm203_ass3.c
-	gcc -o GA bbm203_ass3.c -lm
+GA: genetic_algo.c
+	gcc -o GA genetic_algo.c -lm
+
+clean:
+	rm -f GA
